@@ -1,0 +1,463 @@
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, #fff 100%);
+}
+
+/* Encavesado */
+
+header
+{
+    width: 100%;
+    padding: 1rem;
+    background-color: azure;
+}
+
+h1
+{
+    color: blue;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 span
+{
+    font-weight: bold;
+}
+
+/* Menu de navegacion */
+
+.nvNavegacion
+{
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Botones de navegacion */
+
+.nvNavegacion a
+{
+    padding: 1.5rem;
+    color: azure;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.nvNavegacion a:hover
+{
+    color: gold;
+    background-color: blueviolet;
+}
+
+.nvNavegacion a:active
+{
+    color: forestgreen;
+    background-color: rgb(209, 64, 214);
+}
+
+/* Informacion de contacto */
+
+.infPresentacion
+{
+    width: 100%;
+    height: 40rem;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Sombra
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.txtInformacion
+{
+    color: azure;
+}
+
+.infInterior
+{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;  
+}
+
+.Ubicacion
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Boton de contacto */
+
+.btnContactame
+{
+    width: 10rem;
+    background-color: cornflowerblue;
+    color: azure;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 0, 0, 0);
+    padding: 0.5rem;
+}
+
+.btnContactame:hover
+{
+    background-color: rgb(100, 149, 237, 0.5);
+    color: rgb(225, 0, 0);
+}
+
+.btnContac
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Informacion principal */
+
+main
+{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    /* border: 1px solid #000; */   
+    border-radius: 2rem;
+    box-shadow: 0px 15px 15px 0px rgb(112, 112, 112, 0.45);
+}
+
+.infServicios
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txtServicios
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Diseño de servicio */
+
+.IcoSer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IcoConten
+{
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.IcoCon 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.InfoSist
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IntInfo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titinf
+{
+    display: flex;
+    justify-content: center;
+}
+
+.InfParrafo
+{
+    padding: 1rem;
+}
+
+/* Formulario de la pagina */
+
+.ForConteiner
+{
+    background-color: rgb(32, 37, 146);
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0px 15px 15px 0px rgba(83, 89, 112, 0.45);
+}
+
+.ForTitulo
+{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.bordeFormulario
+{
+    border: 1px solid turquoise;
+    border-radius: 2rem;
+}
+
+.legTitulo
+{
+    color: aliceblue;
+}
+
+.layNom, .layTel
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.txtNombre, .txtTelefono
+{
+    padding-bottom: 1rem;
+    color: aliceblue;
+}
+
+#txtNombre, #txtTelefono
+{
+    padding: 0.5rem;
+}
+
+.conNomTel
+{
+    display: flex;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.conCorreo
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.txtCorreo
+{
+    padding-bottom: 1rem;
+    color: aliceblue;
+}
+
+#txtCorreo
+{
+    padding: 0.5rem;
+}
+
+.conTextArea
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.txtMensaje
+{
+    padding-bottom: 1rem;
+    color: aliceblue;
+}
+
+#txtMensaje
+{
+    padding: 0.5rem;
+}
+
+.txtParrafo
+{
+    display: flex;
+    margin: 1rem;
+}
+
+.TextoP
+{
+    color: aliceblue;
+    margin: 0.5rem;
+}
+
+.btnEnviar
+{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.btnFormulario
+{
+    background-color: rgb(219, 219, 25);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 0, 0, 0);
+    padding: 0.5rem;
+    color: rgb(68, 18, 46);
+}
+
+@media screen and (max-width: 768px) 
+{
+
+    /* Botones de navegacion */
+
+    .nvNavegacion
+    {
+        width: 100%;
+        background-color: cornflowerblue;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nvNavegacion a
+    {
+        color: azure;
+        text-decoration: none;
+    }
+
+    .nvNavegacion a:hover
+    {
+        color: gold;
+    }
+
+    .nvNavegacion a:active
+    {
+        color: forestgreen;
+    }
+
+    /* Informacion del documento */
+
+    .infServicios
+    {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txtServicios
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Diseño de servicio */
+
+    .IcoSer
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .IcoConten
+    {
+        width: 10rem;
+        height: 10rem;
+        padding: 1rem;
+        background-color: gold;
+        border-radius: 100%; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .IcoCon 
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .InfoSist
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .IntInfo
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Titinf
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .InfParrafo
+    {
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+    .btnContactame
+    {
+        width: 90%;
+        background-color: cornflowerblue;
+        color: azure;
+        border-radius: 0.5rem;
+        border: 1px solid rgb(0, 0, 0, 0);
+        padding: 0.5rem;
+    }
+
+    .btnContactame:hover
+    {
+        background-color: rgb(100, 149, 237, 0.5);
+        color: rgb(225, 0, 0);
+    }
+
+    .btnContac
+    {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
